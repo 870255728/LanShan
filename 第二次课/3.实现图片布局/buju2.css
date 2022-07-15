@@ -1,0 +1,35 @@
+body {
+    background-color: aquamarine;
+}
+
+.box {
+    display: grid;
+    grid-template-columns: 224px 224px 224px;
+    grid-template-rows: 400px 400px;
+    position: fixed;
+    top: 50px;
+    margin-left: 500px;
+
+}
+
+.box img:nth-child(1) {
+    grid-column-start: 1;
+    grid-row: 1;
+    margin: auto;
+    /* margin-left: 70px; */
+}
+
+.box img:nth-child(2) {
+    grid-row: 2;
+    grid-column: 1;
+}
+
+.box img:nth-child(3) {
+    grid-row: 2;
+    grid-column: 2;
+}
+
+.box img:nth-child(4) {
+    grid-row: 2;
+    grid-column: 3;
+}
