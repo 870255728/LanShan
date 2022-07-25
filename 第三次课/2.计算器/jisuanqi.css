@@ -1,0 +1,184 @@
+.box {
+    width: 630px;
+    height: 908px;
+    display: grid;
+    grid-template-columns: 156px 156px 156px 156px;
+    grid-template-rows: 150px 150px 150px 150px 150px 150px;
+    background-color: pink;
+    gap: 2px;
+    border: 2.5px solid black;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+.box>* {
+    border-radius: 20px;
+    text-align: center;
+    line-height: 150px;
+    font-size: 40px;
+}
+
+.box>*:hover {
+    cursor: pointer;
+    background-color: #fe8ae1;
+}
+
+.input {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    background-color: #a69ca4;
+    border-radius: 20px;
+    font-size: 40px;
+    height: 140px;
+    border-radius: 5px;
+    border: 2.5px solid black;
+    text-align: center;
+    border-radius: 20px;
+    padding-top: 0;
+}
+
+.btAC {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    background-color: #f9ddf2;
+}
+
+.btclear {
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    background-color: #f9ddf2;
+}
+
+.btchu {
+    grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    background-color: #f9ddf2;
+}
+
+.bt1 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    background-color: #f9ddf2;
+}
+
+.bt2 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    background-color: #f9ddf2;
+}
+
+.btcheng {
+    grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    background-color: #f9ddf2;
+}
+
+.bt3 {
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    background-color: #f9ddf2;
+}
+
+.bt4 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 4;
+    grid-row-end: 4;
+    background-color: #f9ddf2;
+}
+
+.bt5 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 4;
+    background-color: #f9ddf2;
+}
+
+.bt6 {
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 4;
+    background-color: #f9ddf2;
+}
+
+.btjia {
+    grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 4;
+    background-color: #f9ddf2;
+}
+
+.bt7 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 5;
+    grid-row-end: 5;
+    background-color: #f9ddf2;
+}
+
+.bt8 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 5;
+    grid-row-end: 5;
+    background-color: #f9ddf2;
+}
+
+.bt9 {
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 5;
+    background-color: #f9ddf2;
+}
+
+.btjian {
+    grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: 5;
+    grid-row-end: 5;
+    background-color: #f9ddf2;
+}
+
+.btdian {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 6;
+    grid-row-end: 6;
+    background-color: #f9ddf2;
+}
+
+.bt0 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 6;
+    grid-row-end: 6;
+    background-color: #f9ddf2;
+}
+
+.btdeng {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 6;
+    grid-row-end: 6;
+    background-color: #f9ddf2;
+}
